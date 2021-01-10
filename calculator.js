@@ -1,11 +1,24 @@
 // Define the numbers and the operation here
-const firstNumber = 10;
-const secondNumber = 5;
-const operation = "+";
+let firstNumber = prompt("Enter the first number");
+let secondNumber = prompt("Enter the second number");
+let operation = prompt("Enter the operation you want to perform");
 
 // Write if-statements here
 
+// use parseInt function to convert from str to int
 if (operation === "+") {
-  const result = firstNumber + secondNumber;
+  let result = parseInt(firstNumber) + parseInt(secondNumber);
+  console.log(`The result of the operation is ${result} `);
+} else if (operation === "-") {
+  let result = parseInt(firstNumber) - parseInt(secondNumber);
+  console.log(`The result of the operation is ${result} `);
+} else if (operation === "-") {
+  let result = parseInt(firstNumber) - parseInt(secondNumber);
+  console.log(`The result of the operation is ${result} `);
+} else if (operation === "*") {
+  let result = parseInt(firstNumber) * parseInt(secondNumber);
+  console.log(`The result of the operation is ${result} `);
+} else if (operation === "/") {
+  let result = parseInt(firstNumber) / parseInt(secondNumber);
   console.log(`The result of the operation is ${result} `);
 }
