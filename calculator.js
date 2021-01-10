@@ -12,9 +12,6 @@ if (operation === "+") {
 } else if (operation === "-") {
   let result = parseInt(firstNumber) - parseInt(secondNumber);
   console.log(`The result of the operation is ${result} `);
-} else if (operation === "-") {
-  let result = parseInt(firstNumber) - parseInt(secondNumber);
-  console.log(`The result of the operation is ${result} `);
 } else if (operation === "*") {
   let result = parseInt(firstNumber) * parseInt(secondNumber);
   console.log(`The result of the operation is ${result} `);
